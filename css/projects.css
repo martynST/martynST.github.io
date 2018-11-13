@@ -1,0 +1,70 @@
+#garageDisplayTable {
+    /* overflow-y: scroll;
+    max-height: 65%;*/
+    min-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    /* display: block; */
+    color:rgb(0, 0, 0);
+}
+#presidentPrint {
+    overflow-y: scroll;
+    max-height: 75%;
+    max-width: 100%;
+    margin: auto;
+}
+#garageDisplayTable tr {
+    vertical-align: top;
+    padding: 10px; 
+}
+#garageDisplayTable td, th {
+    word-wrap: break-word;
+    max-width: 40%;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid rgb(59, 55, 55)
+}
+#garageDisplayTable th {
+    color: white;
+    background-color: #343a40;
+    font-weight: normal;
+}
+#displayContainer {
+    overflow: hidden;
+    max-height: 50%;
+    max-width: 100%;
+}
+#display {
+    overflow-y: auto;
+    max-height: 49%;
+    max-width: 100%;
+}
+#botlane {
+    position: absolute;
+    bottom: 0em;
+}
+#textBoxOverflowContainer {
+    overflow: hidden;
+}
+#textBoxOverflow {
+    overflow-y: auto;
+    max-height: 150px;
+}
+#status {
+    min-height: 1.5em;
+}
+#results {
+    overflow-y: auto;
+    max-height: 75%;
+    padding: 10px;
+}
+#shapeGoHere {
+    overflow-y: auto;
+    overflow-x: auto;
+    max-height: 65%;
+    padding: 0px;
+}
+body {
+    position: relative;
+}
